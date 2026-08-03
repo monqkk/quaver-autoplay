@@ -1,0 +1,26 @@
+{
+  "version": 2,
+  "dgSpecHash": "3qxyJDnzRX4=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\JP\\Downloads\\monk-autoplay\\monk.API\\monk.API.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\JP\\.nuget\\packages\\inputsimulatorplus\\1.0.7\\inputsimulatorplus.1.0.7.nupkg.sha512",
+    "C:\\Users\\JP\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\JP\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\JP\\.nuget\\packages\\simpledependencyinjection\\1.0.0\\simpledependencyinjection.1.0.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "message": "Package 'InputSimulatorPlus 1.0.7' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework '.NETStandard,Version=v2.0'. This package may not be fully compatible with your project.",
+      "projectPath": "C:\\Users\\JP\\Downloads\\monk-autoplay\\monk.API\\monk.API.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\JP\\Downloads\\monk-autoplay\\monk.API\\monk.API.csproj",
+      "libraryId": "InputSimulatorPlus",
+      "targetGraphs": [
+        "netstandard2.0"
+      ]
+    }
+  ]
+}

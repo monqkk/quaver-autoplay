@@ -1,0 +1,337 @@
+{
+  "version": 4,
+  "targets": {
+    "net8.0-windows": {
+      "InputSimulatorPlus/1.0.7": {
+        "type": "package",
+        "compile": {
+          "lib/net20/WindowsInput.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net20/WindowsInput.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Microsoft.NET.ILLink.Tasks/8.0.29": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "SimpleDependencyInjection/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/SimpleDependencyInjection.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/SimpleDependencyInjection.dll": {}
+        }
+      },
+      "SimpleIniConfig/1.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/SimpleIniConfig.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/SimpleIniConfig.dll": {}
+        }
+      },
+      "monk.API/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "InputSimulatorPlus": "1.0.7",
+          "SimpleDependencyInjection": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/monk.API.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/monk.API.dll": {}
+        }
+      }
+    },
+    "net8.0-windows/win-x64": {
+      "InputSimulatorPlus/1.0.7": {
+        "type": "package",
+        "compile": {
+          "lib/net20/WindowsInput.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net20/WindowsInput.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Microsoft.NET.ILLink.Tasks/8.0.29": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "SimpleDependencyInjection/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/SimpleDependencyInjection.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/SimpleDependencyInjection.dll": {}
+        }
+      },
+      "SimpleIniConfig/1.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/SimpleIniConfig.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/SimpleIniConfig.dll": {}
+        }
+      },
+      "monk.API/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "InputSimulatorPlus": "1.0.7",
+          "SimpleDependencyInjection": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/monk.API.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/monk.API.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "InputSimulatorPlus/1.0.7": {
+      "sha512": "mOJt32qhvp3knYB8EEOh6/9cwZEwQV2BRD3DGZZ8guFg8vOt+xq6QGEt5eFjTkG+VWgVDMPVdCAIE4gnfab+3Q==",
+      "type": "package",
+      "path": "inputsimulatorplus/1.0.7",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "inputsimulatorplus.1.0.7.nupkg.sha512",
+        "inputsimulatorplus.nuspec",
+        "lib/net20/WindowsInput.dll",
+        "lib/net20/WindowsInput.pdb",
+        "lib/net20/WindowsInput.xml"
+      ]
+    },
+    "Microsoft.NET.ILLink.Tasks/8.0.29": {
+      "sha512": "HSBTfrkIZijz8z3ybLRKB7E8rHk4QQufFwpHa9fc5CMIgRhRzdn4mBGmlyXZqaueiMPtuJcnjresGvSTfaW8Mg==",
+      "type": "package",
+      "path": "microsoft.net.illink.tasks/8.0.29",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "Sdk/Sdk.props",
+        "THIRD-PARTY-NOTICES.TXT",
+        "analyzers/dotnet/cs/ILLink.CodeFixProvider.dll",
+        "analyzers/dotnet/cs/ILLink.RoslynAnalyzer.dll",
+        "build/Microsoft.NET.ILLink.Analyzers.props",
+        "build/Microsoft.NET.ILLink.Tasks.props",
+        "build/Microsoft.NET.ILLink.targets",
+        "microsoft.net.illink.tasks.8.0.29.nupkg.sha512",
+        "microsoft.net.illink.tasks.nuspec",
+        "tools/net472/ILLink.Tasks.dll",
+        "tools/net472/ILLink.Tasks.dll.config",
+        "tools/net472/Mono.Cecil.Mdb.dll",
+        "tools/net472/Mono.Cecil.Pdb.dll",
+        "tools/net472/Mono.Cecil.Rocks.dll",
+        "tools/net472/Mono.Cecil.dll",
+        "tools/net472/Sdk/Sdk.props",
+        "tools/net472/System.Buffers.dll",
+        "tools/net472/System.Collections.Immutable.dll",
+        "tools/net472/System.Memory.dll",
+        "tools/net472/System.Numerics.Vectors.dll",
+        "tools/net472/System.Reflection.Metadata.dll",
+        "tools/net472/System.Runtime.CompilerServices.Unsafe.dll",
+        "tools/net472/build/Microsoft.NET.ILLink.Analyzers.props",
+        "tools/net472/build/Microsoft.NET.ILLink.Tasks.props",
+        "tools/net472/build/Microsoft.NET.ILLink.targets",
+        "tools/net8.0/ILLink.Tasks.deps.json",
+        "tools/net8.0/ILLink.Tasks.dll",
+        "tools/net8.0/Mono.Cecil.Mdb.dll",
+        "tools/net8.0/Mono.Cecil.Pdb.dll",
+        "tools/net8.0/Mono.Cecil.Rocks.dll",
+        "tools/net8.0/Mono.Cecil.dll",
+        "tools/net8.0/Sdk/Sdk.props",
+        "tools/net8.0/build/Microsoft.NET.ILLink.Analyzers.props",
+        "tools/net8.0/build/Microsoft.NET.ILLink.Tasks.props",
+        "tools/net8.0/build/Microsoft.NET.ILLink.targets",
+        "tools/net8.0/illink.deps.json",
+        "tools/net8.0/illink.dll",
+        "tools/net8.0/illink.runtimeconfig.json",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "SimpleDependencyInjection/1.0.0": {
+      "sha512": "B0ej+Qd/LcCag7uSYNJt5Rx5CqBaCBr8PSLbqhAkrfQdGCQZ4y5M7kv2coYsuMQFFuLrZzyKjADaLuhEbFLAdw==",
+      "type": "package",
+      "path": "simpledependencyinjection/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/SimpleDependencyInjection.dll",
+        "simpledependencyinjection.1.0.0.nupkg.sha512",
+        "simpledependencyinjection.nuspec"
+      ]
+    },
+    "SimpleIniConfig/1.0.1": {
+      "sha512": "nNYQC0tFrhInEGoliwjhG2eioERfCD9pyyB6B3+XNwz4NFvlXk+McVEHRJ6OvYgymryz44khUP1pWPaZQoMcWg==",
+      "type": "package",
+      "path": "simpleiniconfig/1.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/SimpleIniConfig.dll",
+        "simpleiniconfig.1.0.1.nupkg.sha512",
+        "simpleiniconfig.nuspec"
+      ]
+    },
+    "monk.API/1.0.0": {
+      "type": "project",
+      "path": "monk.API/monk.API.csproj",
+      "msbuildProject": "monk.API/monk.API.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0-windows": [
+      "InputSimulatorPlus >= 1.0.7",
+      "Microsoft.NET.ILLink.Tasks >= 8.0.29",
+      "SimpleDependencyInjection >= 1.0.0",
+      "SimpleIniConfig >= 1.0.1",
+      "monk.API >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\JP\\AppData\\Local\\Temp\\cursor-sandbox-cache\\c4fc601e41020397bba06c2eb7c859be\\nuget": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\JP\\Downloads\\monk-autoplay\\monk-autoplay.csproj",
+      "projectName": "monk-autoplay",
+      "projectPath": "C:\\Users\\JP\\Downloads\\monk-autoplay\\monk-autoplay.csproj",
+      "packagesPath": "C:\\Users\\JP\\AppData\\Local\\Temp\\cursor-sandbox-cache\\c4fc601e41020397bba06c2eb7c859be\\nuget",
+      "outputPath": "C:\\Users\\JP\\Downloads\\monk-autoplay\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\JP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0-windows"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0-windows": {
+          "framework": "net8.0-windows7.0",
+          "targetAlias": "net8.0-windows",
+          "projectReferences": {
+            "C:\\Users\\JP\\Downloads\\monk-autoplay\\monk.API\\monk.API.csproj": {
+              "projectPath": "C:\\Users\\JP\\Downloads\\monk-autoplay\\monk.API\\monk.API.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "10.0.300"
+    },
+    "frameworks": {
+      "net8.0-windows": {
+        "framework": "net8.0-windows7.0",
+        "targetAlias": "net8.0-windows",
+        "dependencies": {
+          "InputSimulatorPlus": {
+            "target": "Package",
+            "version": "[1.0.7, )"
+          },
+          "Microsoft.NET.ILLink.Tasks": {
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[8.0.29, )",
+            "autoReferenced": true
+          },
+          "SimpleDependencyInjection": {
+            "target": "Package",
+            "version": "[1.0.0, )"
+          },
+          "SimpleIniConfig": {
+            "target": "Package",
+            "version": "[1.0.1, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
+            "version": "[8.0.29, 8.0.29]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Runtime.win-x64",
+            "version": "[8.0.29, 8.0.29]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
+            "version": "[8.0.29, 8.0.29]"
+          }
+        ],
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.302/PortableRuntimeIdentifierGraph.json"
+      }
+    },
+    "runtimes": {
+      "win-x64": {
+        "#import": []
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'InputSimulatorPlus 1.0.7' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0-windows7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "InputSimulatorPlus",
+      "targetGraphs": [
+        "net8.0-windows"
+      ]
+    }
+  ]
+}

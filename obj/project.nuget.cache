@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "dgSpecHash": "oyaGxcOTF4s=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\JP\\Downloads\\monk-autoplay\\monk-autoplay.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\JP\\AppData\\Local\\Temp\\cursor-sandbox-cache\\c4fc601e41020397bba06c2eb7c859be\\nuget\\inputsimulatorplus\\1.0.7\\inputsimulatorplus.1.0.7.nupkg.sha512",
+    "C:\\Users\\JP\\AppData\\Local\\Temp\\cursor-sandbox-cache\\c4fc601e41020397bba06c2eb7c859be\\nuget\\microsoft.net.illink.tasks\\8.0.29\\microsoft.net.illink.tasks.8.0.29.nupkg.sha512",
+    "C:\\Users\\JP\\AppData\\Local\\Temp\\cursor-sandbox-cache\\c4fc601e41020397bba06c2eb7c859be\\nuget\\simpledependencyinjection\\1.0.0\\simpledependencyinjection.1.0.0.nupkg.sha512",
+    "C:\\Users\\JP\\AppData\\Local\\Temp\\cursor-sandbox-cache\\c4fc601e41020397bba06c2eb7c859be\\nuget\\simpleiniconfig\\1.0.1\\simpleiniconfig.1.0.1.nupkg.sha512",
+    "C:\\Users\\JP\\AppData\\Local\\Temp\\cursor-sandbox-cache\\c4fc601e41020397bba06c2eb7c859be\\nuget\\microsoft.netcore.app.runtime.win-x64\\8.0.29\\microsoft.netcore.app.runtime.win-x64.8.0.29.nupkg.sha512",
+    "C:\\Users\\JP\\AppData\\Local\\Temp\\cursor-sandbox-cache\\c4fc601e41020397bba06c2eb7c859be\\nuget\\microsoft.windowsdesktop.app.runtime.win-x64\\8.0.29\\microsoft.windowsdesktop.app.runtime.win-x64.8.0.29.nupkg.sha512",
+    "C:\\Users\\JP\\AppData\\Local\\Temp\\cursor-sandbox-cache\\c4fc601e41020397bba06c2eb7c859be\\nuget\\microsoft.aspnetcore.app.runtime.win-x64\\8.0.29\\microsoft.aspnetcore.app.runtime.win-x64.8.0.29.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "message": "Package 'InputSimulatorPlus 1.0.7' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0-windows7.0'. This package may not be fully compatible with your project.",
+      "projectPath": "C:\\Users\\JP\\Downloads\\monk-autoplay\\monk-autoplay.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\JP\\Downloads\\monk-autoplay\\monk-autoplay.csproj",
+      "libraryId": "InputSimulatorPlus",
+      "targetGraphs": [
+        "net8.0-windows"
+      ]
+    }
+  ]
+}

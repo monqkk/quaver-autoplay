@@ -1,0 +1,8 @@
+C:\Users\JP\Downloads\monk-autoplay\monk.API\bin\Release\netstandard2.0\monk.API.deps.json
+C:\Users\JP\Downloads\monk-autoplay\monk.API\bin\Release\netstandard2.0\monk.API.dll
+C:\Users\JP\Downloads\monk-autoplay\monk.API\obj\Release\netstandard2.0\monk.API.csproj.AssemblyReference.cache
+C:\Users\JP\Downloads\monk-autoplay\monk.API\obj\Release\netstandard2.0\monk.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\JP\Downloads\monk-autoplay\monk.API\obj\Release\netstandard2.0\monk.API.AssemblyInfoInputs.cache
+C:\Users\JP\Downloads\monk-autoplay\monk.API\obj\Release\netstandard2.0\monk.API.AssemblyInfo.cs
+C:\Users\JP\Downloads\monk-autoplay\monk.API\obj\Release\netstandard2.0\monk.API.csproj.CoreCompileInputs.cache
+C:\Users\JP\Downloads\monk-autoplay\monk.API\obj\Release\netstandard2.0\monk.API.dll
